@@ -1,6 +1,6 @@
-a, b, c = map(int, input().split())
+a, b, c = map(int, input().split()) # a >= b >= c
 
-if a + b > c:
+if a + b > c: # 삼각형 판별 조건
     if a == b == c:
         print('정삼각형')
 
